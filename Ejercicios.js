@@ -73,8 +73,12 @@ function agregarMetodoCalculoDescuento(producto) {
     
 
 }
-function ordenarArray
+function ordenar(array) {
     // A partir del array pasado por parametros, ordenarlo (ascendente o descendente) de la forma que tu quieras
     // Mostrar array ordenado.
     // Tu código:
 }
+
+var paises = ['Canada', 'Brasil', 'Argentina'];
+paises.sort();
+console.log(paises)
