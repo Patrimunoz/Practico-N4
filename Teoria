@@ -4,20 +4,56 @@ Explica los siguientes conceptos con tus propias palabras.
 
 1 - ¿Que es Math?
 
+ es un objeto que tiene propiedades y métodos para constantes y funciones matemáticas.
+
 2 - Explica 5 Metodos Math.
 
+Math.ceil = devuelve el entero mayor o igual que un número.
+Math.floor = devuelve el entero menor o igual que un número.
+Math.max = devuelve el mayor de cero o mas números.
+Math.min = devuelve el mas pequeño de cero o más números.
+Math.random = devuelve un numero aleatorio.
+
 3 - ¿Que es un String?
+es unana cadena de caracteres ej. "hola"
 
 4 - ¿Que es un booleano?
+un tipo de dato primitivo comunmente usado que tiene 2 posibles valores: true o false.
 
 5 - ¿Que es una funcion?
+un conjunto de instruccionees que realiza una tarea o calcula un valor. para ello debe tomar una entrada y devolver una salida que tengan relación entre si.
 
 6 - Explica la diferencia entre Undefined y Null
+los 2 indican ausencia de valor, sólo que "undefined" indica que no se ha definido el valor todavía, mientras que "null" se usa para indicar que directamente no hay valor.
 
 7 - ¿Cuales son los operadores de Comparacion?
 
+Igual (==)	Devuelve true si los operandos son iguales.
+
+No es igual (!=)	Devuelve true si los operandos no son iguales.
+
+Estrictamente igual (===)	Devuelve true si los operandos son iguales y del mismo tipo.
+
+Desigualdad estricta (!==)	Devuelve true si los operandos son del mismo tipo pero no iguales, o son de diferente tipo.
+
+Mayor que (>)	Devuelve true si el operando izquierdo es mayor que el operando derecho.
+
+Mayor o igual que (>=)	Devuelve true si el operando izquierdo es mayor o igual que el operando derecho.
+
+Menor que (<)	Devuelve true si el operando izquierdo es menor que el operando derecho.	
+
+Menor o igual (<=)	Devuelve true si el operando izquierdo es menor o igual que el operando derecho.
+
 8 - ¿Cuales son los operadores Logicos?
+
+AND Lógico (&&)	
+OR lógico (||)	
+NOT lógico (!)
 
 9 - ¿A que hace referencia la palabra Clave o Key?
 
+Un array cuyos elementos son strings correspondientes a las propiedades enumerables que se encuentran directamente en el object.
+
 10 - ¿Para que sirve el Bucle for..in ?
+La instrucción for-in itera sobre todas las propiedades enumerables de un objeto que está codificado por cadenas 
+(ignorando los codificados por Símbolos, incluidas las propiedades enumerables heredadas.
